@@ -1,0 +1,297 @@
+body {
+  margin: 0;
+  font-family: "Quicksand", "sans-serif";
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+.iddink-blauw {
+  width: 150px;
+  height: 40px;
+  padding-left: 110px;
+  padding-top: 10px;
+}
+
+li .dropdown {
+  float: right;
+  cursor: pointer;
+  padding: 7px;
+  margin-top: -55px;
+  margin-top: -65px;
+}
+.dropdown {
+  color: #0073cf;
+}
+
+#search {
+  float: right;
+  cursor: pointer;
+  padding: 27px;
+  margin-top: -65px;
+}
+
+.headerafbeelding {
+  height: 380px;
+  width: 100%;
+  margin: 0 auto;
+  background-position: top;
+  background-image: url("../img/slide-iddink.jpg");
+  background-size: cover;
+  margin-top: -20px;
+}
+
+#headertekst {
+  padding-top: 80px;
+  padding-left: 220px;
+  color: #fff;
+}
+
+#leesmeer {
+  margin-left: 420px;
+  margin-top: 40px;
+  background-color: #0073cf;
+  padding: 10px 20px 10px 20px;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #fff;
+  border-style: solid;
+  border-width: 1.5px;
+  border-color: #fff;
+  border-radius: 4px;
+  display: block;
+}
+
+nav {
+  padding-bottom: 1px;
+}
+
+#hersen-icon {
+  margin-left: 1300px;
+  margin-top: -200px;
+}
+
+#watdoenwij,
+#watdoenwijtekst {
+  text-align: center;
+}
+
+#watdoenwij {
+  color: #0073cf;
+}
+
+#ontdek {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background-color: #0073cf;
+  padding: 10px 20px 10px 20px;
+  border-style: solid;
+  border-width: 1.5px;
+  border-radius: 5px;
+  border-color: #fff;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+#registreer {
+  text-align: center;
+  font-size: 13px;
+  color: #0073cf;
+  text-transform: uppercase;
+}
+
+#ipad {
+  display: block;
+  margin-left: auto;
+  margin-right: 380px;
+  margin-top: -110px;
+}
+
+.grid {
+  display: grid;
+  grid-column-gap: 45px;
+  grid-template-columns: repeat(4, 250px);
+  padding: 10px;
+  justify-content: center;
+}
+
+#persoon1 {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  text-align: left;
+}
+
+#persoon2 {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  text-align: left;
+}
+
+#persoon3 {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  text-align: left;
+}
+
+#persoon4 {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  text-align: left;
+}
+
+.grid section h3 {
+  color: #0073cf;
+  font-size: 16px;
+  padding-bottom: 4px;
+}
+
+.grid section p {
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+
+.grid section .leesmeer {
+  font-size: 14px;
+  color: #0073cf;
+}
+
+.winactie {
+  background-color: #85badf;
+  margin: 0 auto;
+  padding-bottom: 75px;
+}
+
+#ipad3 {
+  float: right;
+  padding-right: 150px;
+  padding-top: 15px;
+}
+
+#winactie-ipad {
+  text-transform: uppercase;
+  color: #fff;
+  border-color: #fff;
+  border-radius: 5px;
+  border-width: 1.5px;
+  border-style: solid;
+  padding: 10px 20px 10px 20px;
+  background-color: #0073cf;
+  margin-left: 249px;
+}
+
+.winactie-info {
+  color: #fff;
+  margin-left: 250px;
+}
+
+#ipad2 {
+  margin-left: 650px;
+}
+
+.contact h3 {
+  color: #0073cf;
+  text-align: center;
+}
+
+.contact p {
+  text-align: center;
+}
+
+#mail-ons {
+  background-color: #0073cf;
+  padding: 10px 20px 10px 20px;
+  border-style: solid;
+  border-width: 1.5px;
+  border-radius: 5px;
+  border-color: #fff;
+  color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#mobile-img {
+  margin-left: auto;
+  display: block;
+  margin-right: 300px;
+  margin-top: -130px;
+}
+
+footer {
+  background-color: #0076d5;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+footer img {
+  height: 40px;
+  padding: 50px 390px;
+  display: block;
+  margin: 0;
+}
+
+footer #onderdeel {
+  font-size: 14px;
+  padding-top: 25px;
+  margin-top: -10px;
+  color: #fff;
+  padding-left: 390px;
+  margin-bottom: 0;
+}
+
+footer #copyright {
+  float: right;
+  margin-right: 402px;
+  margin-top: -18px;
+  color: #fff;
+  font-size: 14px;
+}
+
+footer ul {
+  list-style-type: none;
+  margin-top: -100px;
+  padding-right: 375px;
+  overflow: hidden;
+  color: #fff;
+}
+
+footer li a {
+  float: right;
+}
+
+footer li a {
+  display: block;
+  color: #fff;
+  padding: 25px;
+  text-decoration: none;
+  font-size: 14px;
+  text-transform: capitalize;
+}
